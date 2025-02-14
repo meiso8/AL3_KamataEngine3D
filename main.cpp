@@ -79,6 +79,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		dxCommon->PostDraw();
 	}
 
+	//変更
+
 	// 3Dモデル解放
 	Model::StaticFinalize();
 	audio->Finalize();
