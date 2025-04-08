@@ -38,6 +38,8 @@ int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 		// ここに描画処理を記述する
 		//
 
+		//ブランチのテストのために追加
+
 		// ゲームシーンの描画
 		gameScene->Update();
 
