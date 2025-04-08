@@ -84,14 +84,14 @@ void GameScene::Draw() {
 	// DirectXCommonのインスタンスの取得 描画コマンドリストの取得のため
 	DirectXCommon* dxCommon = DirectXCommon::GetInstance();
 
-	//// スプライトの描画前処理
-	// Sprite::PreDraw(dxCommon->GetCommandList());
+	// スプライトの描画前処理
+	 Sprite::PreDraw(dxCommon->GetCommandList());
 
-	//// ここにスプライトのインスタンスの描画処理を記述する
-	// sprite_->Draw();
+	// ここにスプライトのインスタンスの描画処理を記述する
+	 sprite_->Draw();
 
-	//// スプライト描画後処理
-	// Sprite::PostDraw();
+	// スプライト描画後処理
+	 Sprite::PostDraw();
 
 	/*3Dモデル描画前処理*/
 	Model::PreDraw(dxCommon->GetCommandList());
